@@ -33,3 +33,7 @@ _You need a working VAAPI configuration for this. Also, set_ `MOZ_X11_EGL=1` _en
 ## Touchpad scroll
 - `apz.gtk.kinetic_scroll.enabled`: `false`
 
+## Network (DoH and ESNI)
+- `network.trr.mode`: `2`
+- `network.dns.echconfig.enabled`: `true`
+
